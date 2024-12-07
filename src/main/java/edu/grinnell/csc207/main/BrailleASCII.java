@@ -3,7 +3,9 @@ package edu.grinnell.csc207.main;
 import java.io.PrintWriter;
 
 /**
+ * 
  *
+ * @author Sam Schmidt
  */
 public class BrailleASCII {
   // +------+--------------------------------------------------------

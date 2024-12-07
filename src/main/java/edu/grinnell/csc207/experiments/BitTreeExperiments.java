@@ -105,25 +105,25 @@ public class BitTreeExperiments {
 
     BitTree bt = new BitTree(5);
     set(pen, bt, "00000", "Zero");
-    set(pen, bt, "10000", "Sixteen");
-    set(pen, bt, "01111", "Fifteen");
+    //set(pen, bt, "10000", "Sixteen");
+    //set(pen, bt, "01111", "Fifteen");
 
-    get(pen, bt, "01111");
+    //get(pen, bt, "01111");
     get(pen, bt, "00000");
-    get(pen, bt, "10000");
+    //get(pen, bt, "10000");
 
-    set(pen, bt, "0011a", "Invalid character");
-    set(pen, bt, "0011", "Too short");
-    set(pen, bt, "001100", "Too long");
+    // set(pen, bt, "0011a", "Invalid character");
+    // set(pen, bt, "0011", "Too short");
+    // set(pen, bt, "001100", "Too long");
 
-    get(pen, bt, "00111");      // Invalid key
-    get(pen, bt, "11111");      // Invalid key
-    get(pen, bt, "11a11");      // Invalid character
-    get(pen, bt, "1111");       // Too short
-    get(pen, bt, "110100");     // Too long
+    // get(pen, bt, "00111");      // Invalid key
+    // get(pen, bt, "11111");      // Invalid key
+    // get(pen, bt, "11a11");      // Invalid character
+    // get(pen, bt, "1111");       // Too short
+    // get(pen, bt, "110100");     // Too long
 
-    set(pen, bt, "01111", "Five-teen");
-    get(pen, bt, "01111");
+    // set(pen, bt, "01111", "Five-teen");
+    // get(pen, bt, "01111");
 
     pen.println("Final contents");
     bt.dump(pen);
@@ -173,7 +173,7 @@ public class BitTreeExperiments {
     PrintWriter pen = new PrintWriter(System.out, true);
 
     experiment01(pen);
-    experiment02(pen);
+    // experiment02(pen);
     
     pen.close();
   } // main(String[])
