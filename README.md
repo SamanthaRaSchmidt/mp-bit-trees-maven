@@ -9,13 +9,13 @@ A mini-project exploring bit trees (a form of binary tree) and their use in tran
 
 **Acknowledgements**
 
-*
+* Used the BinaryTree<T> class from the tree traversal lab as an outline for the BitTreeNode
 *
 *
 
 **Instructions for use**
 
-_Please insert instructions here._
+Note: Currently not fully done! Only bitTreeNode and a non-working set/get are completely, but I felt bad submitting absolutely nothing so I figured I'd still submit, maybe get feedback and finish it on a redo.
 
 ---
 
