@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.IOException;
 
 /**
- *
+ * Stores conversions and methods of conversions for braille, ASCII, and unicode.
  *
  * @author Sam Schmidt
  * @author Samuel A. Rebelsky
