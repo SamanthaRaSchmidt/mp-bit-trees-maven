@@ -122,7 +122,7 @@ public class BitTree {
   } // get(K, BSTNode<K, V>)
 
   void dump(BitTreeNode node, PrintWriter pen) {
-
+    // STUB
   } // dump(BitTreeNode, PrintWriter)
 
 
@@ -170,14 +170,20 @@ public class BitTree {
   } // get(String, String)
 
   /**
+   * Prints out the contents of the tree in CSV format.
    *
+   * @param pen
+   *    A printwriter used to print information
    */
   public void dump(PrintWriter pen) {
     dump(root, pen);
   } // dump(PrintWriter)
 
   /**
+   * Reads a series of lines of the form bits,value and stores them in the tree.
    *
+   * @param source
+   *  The source to read from to build the bit trees.
    */
   public void load(InputStream source) {
     // STUB

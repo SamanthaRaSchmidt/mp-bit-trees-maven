@@ -10,13 +10,12 @@ A mini-project exploring bit trees (a form of binary tree) and their use in tran
 **Acknowledgements**
 
 * Used the BinaryTree<T> class from the tree traversal lab as an outline for the BitTreeNode
-*
-*
+* Used eboard 25 (https://rebelsky.cs.grinnell.edu/Courses/CSC207/2024Fa/eboards/eboard25-1) for help in the BrailleAsciiTables
+* Used the MP 10 ASsignment page for some of the documentation lines of methods.
 
 **Instructions for use**
 
-Note: Currently not fully done! Only bitTreeNode and a non-working set/get are completely, but I felt bad submitting absolutely nothing so I figured I'd still submit, maybe get feedback and finish it on a redo.
-
+Note: Currently not fully done! Only bitTreeNode and a non-working set/get are completely. Everything is still in a preliminary state and so the program cannot be run yet.
 ---
 
 This code may be found at <https://github.com/SamanthaRaSchmidt/mp-bit-trees-maven>. The original code may be found at <https://github.com/Grinnell-CSC207/mp-bit-trees-maven>.

@@ -202,14 +202,24 @@ public class BrailleAsciiTables {
   // +----------------+
 
   /**
+   * Converts an ASCII character to a string of bits representing the corresponding braille character.
    *
+   * @param letter
+   *    the ASCII character to be converted
+   *
+   * @return a string that represents the bits for the braille character
    */
   public static String toBraille(char letter) {
     return "";  // STUB
   } // toBraille(char)
 
   /**
+   * Converts a string of bits representing a braille character to the corresponding ASCII character.
    *
+   * @param bits
+   *    the string of bits that represent a braille character
+   *
+   * @return the ASCII character that corresponds
    */
   public static String toAscii(String bits) {
     // Make sure we've loaded the braille-to-ASCII tree.
@@ -227,9 +237,14 @@ public class BrailleAsciiTables {
   } // toAscii(String)
 
   /**
+   * Converts a string of bits representing a braille character to the corresponding Unicode braille character.
    *
+   * @param bits
+   *  The string of bits to be converted
+   *
+   * @return the Unicode braille character
    */
   public static String toUnicode(String bits) {
-    return "";  // STUB
+    return new String(Character.toChars(Integer.valueOf(bits)));
   } // toUnicode(String)
 } // BrailleAsciiTables
